@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(65, 65, 65);
+    
+}
+.text_1 {
+    color: red;
+    font-size: 30px;
+}
+.box_1 {
+    width: 1300px;
+    height: 100%;
+    padding: 15px 30px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-around;  */
+    flex-wrap: wrap;
+}
+.box_1 div {
+    margin: 10px;
+    display: flex;
+    color: black;
+}
+.pers_1 {
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(45deg, black, rgb(4, 99, 253), blue 93%);
+}
+.ph_1 {
+    width: 80px;
+    height: 190px;
+    position: relative;
+    bottom: 22px;
+    right: 20px;
+    
+}
+.steve_1 {
+    margin: 0;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    color: white;
+}
+.steve_2 {
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    right: 35px;
+    color: white;
+}
+.pers_2 {
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(45deg, rgb(192, 192, 192), rgb(48, 93, 51),rgb(59, 117, 59) 93%);
+}
+.ph_2 {
+    width: 90px;
+    height: 175px;
+    position: relative;
+    bottom: 22px;
+}
+.barton_1 {
+    margin: 0;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    color: white;
+}
+.barton_2 {
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    right: 35px;
+    color: white;
+}
+.pers_3 {
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(45deg, rgb(148, 148, 148), red, rgb(180, 182, 35) 93%);
+}
+.ph_3 {
+    width: 90px;
+    height: 175px;
+    position: relative;
+    bottom: 25px;   
+}
+.tony_1 {
+    margin: 0;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    color: white;
+}
+.tony_2 {
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    right: 8px;
+    color: white;
+}
+.pers_4 {
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(45deg, rgb(4, 99, 253), red 93%);
+}
+.ph_4 {
+    width: 90px;
+    height: 170px;
+}
+.peter_1 {
+    margin: 0;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    color: white;
+}
+.peter_2 {
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    right: 19px;
+    color: white;
+}
+@media screen and (max-width:500px)  {
+    .box_1 {
+        width: 100%;
+    }
+    .text_1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+}
